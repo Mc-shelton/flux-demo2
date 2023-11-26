@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: mcsheltonomondi/test-app:kiboko
+        image: mcsheltonomondi/test-app
         resources:
           limits:
             memory: "128Mi"

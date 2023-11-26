@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/',(req,res)=>{
     const hostname = os.hostname()
-    res.send(`Welcome to Devops Community : ${hostname}`)
+    res.send(`Welcome to Nairobi Devops Community : ${hostname}`)
 })
 
 app.listen(3230,()=>{
