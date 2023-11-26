@@ -9,3 +9,5 @@ spec:
   ref:
     branch: master
   url: https://github.com/stefanprodan/podinfo
+
+# flux create kustomization podinfo --target-namespace=default --source=podinfo --path="./kustomize" --prune=true --wait=true --interval=30m --retry-interval=2m --health-check-timeout=3m --export > ./clusters/my-cluster/podinfo-kustomization.yaml
